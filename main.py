@@ -211,7 +211,7 @@ layout = nx.spring_layout(g)
 layout_karate = nx.spring_layout(karate_graph)
 
 #draw_graph(g, 0, layout)
-#draw_graph(karate_graph, 0, layout_karate)
+draw_graph(karate_graph, 0, layout_karate)
 
 
 pert_graph = perturbation(g, 0)
@@ -230,8 +230,8 @@ calculate_measures(pert_graph_karate)
 layout_pert = nx.spring_layout(pert_graph)
 layout_karate_pert_karate = nx.spring_layout(pert_graph_karate)
 
-#draw_graph(pert_graph, .05, layout)
-#draw_graph(karate_graph, .10, layout_karate)
+#draw_graph(pert_graph, .10, layout)
+draw_graph(karate_graph, .20, layout_karate)
 
 #Vertex Refinement
 for i in range(0,4):
