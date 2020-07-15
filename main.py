@@ -255,7 +255,7 @@ def main():
     # draw_graph(g, 0, layout)
     draw_graph(karate_graph, 0, layout_karate)
 
-    pert_graph = perturbation(g, 0)
+    pert_graph = perturbation(g, .10)
     pert_graph_karate = perturbation(karate_graph, .20)
 
     print("Measures for email graph before perturbation")
