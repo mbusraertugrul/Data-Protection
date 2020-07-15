@@ -272,7 +272,7 @@ def main():
     layout_karate_pert_karate = nx.spring_layout(pert_graph_karate)
 
     # draw_graph(pert_graph, .10, layout)
-    draw_graph(karate_graph, .20, layout_karate)
+    draw_graph(pert_graph_karate, .20, layout_karate_pert_karate)
 
     # Vertex Refinement
     for i in range(0, 4):
